@@ -1,0 +1,8 @@
+.PHONY: clean
+
+bst:
+	@chmod 755 .
+	@python bst_test.py
+	
+clean:
+	@\rm -f *.pyc

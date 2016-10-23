@@ -1,0 +1,8 @@
+.PHONY: clean
+
+listconcat:
+	@chmod 755 .
+	@python listconcat_test.py
+	
+clean:
+@\rm -f *.pyc

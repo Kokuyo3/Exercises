@@ -1,0 +1,8 @@
+.PHONY: clean
+
+traversalconvert:
+	@chmod 755 .
+	@pyhton traversalconvert_test.py
+	
+clean:
+	@\rm -f *.pyc

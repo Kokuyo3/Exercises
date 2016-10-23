@@ -1,0 +1,8 @@
+.PHONY: clean
+
+pointerqueue:
+	@chmod 755 .
+	@pyhton pointerqueue_test.py
+	
+clean:
+	@\rm -f *.pyc

@@ -1,0 +1,8 @@
+.PHONY: clean
+
+levelorder:
+	@chmod 755 .
+	@pyhton levelorder_test.py
+	
+clean:
+	@\rm -f *.pyc
